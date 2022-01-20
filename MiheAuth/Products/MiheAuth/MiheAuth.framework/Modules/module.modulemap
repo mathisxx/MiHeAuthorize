@@ -1,0 +1,6 @@
+framework module MiheAuth {
+  umbrella header "MiheAuth.h"
+
+  export *
+  module * { export * }
+}
