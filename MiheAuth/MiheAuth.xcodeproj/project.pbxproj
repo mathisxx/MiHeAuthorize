@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDC917C227992B5A00C7716E /* MIhe */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CDC917C327992B5A00C7716E /* Build configuration list for PBXAggregateTarget "MIhe" */;
+			buildPhases = (
+				CDC917C627992B8B00C7716E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = MIhe;
+			productName = MIhe;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CDC9178B27992A6D00C7716E /* MiheAuth.docc in Sources */ = {isa = PBXBuildFile; fileRef = CDC9178A27992A6D00C7716E /* MiheAuth.docc */; };
+		CDC9179127992A6E00C7716E /* MiheAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC9178627992A6D00C7716E /* MiheAuth.framework */; };
+		CDC9179627992A6E00C7716E /* MiheAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9179527992A6E00C7716E /* MiheAuthTests.m */; };
+		CDC9179727992A6E00C7716E /* MiheAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC9178927992A6D00C7716E /* MiheAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC917B227992A8A00C7716E /* MiheUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917A027992A8900C7716E /* MiheUserModel.h */; };
+		CDC917B327992A8A00C7716E /* AuthorizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917A127992A8A00C7716E /* AuthorizeManager.m */; };
+		CDC917B427992A8A00C7716E /* AuthorizeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917A227992A8A00C7716E /* AuthorizeManager.h */; };
+		CDC917B627992A8A00C7716E /* MiheUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917A427992A8A00C7716E /* MiheUserModel.m */; };
+		CDC917B727992A8A00C7716E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CDC917A627992A8A00C7716E /* LICENSE */; };
+		CDC917B827992A8A00C7716E /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917A827992A8A00C7716E /* WebViewJavascriptBridgeBase.m */; };
+		CDC917B927992A8A00C7716E /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917A927992A8A00C7716E /* WKWebViewJavascriptBridge.m */; };
+		CDC917BA27992A8A00C7716E /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917AA27992A8A00C7716E /* WebViewJavascriptBridge.m */; };
+		CDC917BB27992A8A00C7716E /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917AB27992A8A00C7716E /* WebViewJavascriptBridge_JS.h */; };
+		CDC917BC27992A8A00C7716E /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917AC27992A8A00C7716E /* WebViewJavascriptBridgeBase.h */; };
+		CDC917BD27992A8A00C7716E /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917AD27992A8A00C7716E /* WebViewJavascriptBridge_JS.m */; };
+		CDC917BE27992A8A00C7716E /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917AE27992A8A00C7716E /* WebViewJavascriptBridge.h */; };
+		CDC917BF27992A8A00C7716E /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917AF27992A8A00C7716E /* WKWebViewJavascriptBridge.h */; };
+		CDC917C027992A8A00C7716E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDC917B027992A8A00C7716E /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC9179227992A6E00C7716E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC9177D27992A6D00C7716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC9178527992A6D00C7716E;
+			remoteInfo = MiheAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC9178627992A6D00C7716E /* MiheAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiheAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC9178927992A6D00C7716E /* MiheAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiheAuth.h; sourceTree = "<group>"; };
+		CDC9178A27992A6D00C7716E /* MiheAuth.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MiheAuth.docc; sourceTree = "<group>"; };
+		CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiheAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC9179527992A6E00C7716E /* MiheAuthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiheAuthTests.m; sourceTree = "<group>"; };
+		CDC917A027992A8900C7716E /* MiheUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiheUserModel.h; sourceTree = "<group>"; };
+		CDC917A127992A8A00C7716E /* AuthorizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeManager.m; sourceTree = "<group>"; };
+		CDC917A227992A8A00C7716E /* AuthorizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeManager.h; sourceTree = "<group>"; };
+		CDC917A427992A8A00C7716E /* MiheUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiheUserModel.m; sourceTree = "<group>"; };
+		CDC917A627992A8A00C7716E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CDC917A827992A8A00C7716E /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		CDC917A927992A8A00C7716E /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CDC917AA27992A8A00C7716E /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CDC917AB27992A8A00C7716E /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		CDC917AC27992A8A00C7716E /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		CDC917AD27992A8A00C7716E /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		CDC917AE27992A8A00C7716E /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CDC917AF27992A8A00C7716E /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		CDC917B027992A8A00C7716E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC9178327992A6D00C7716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC9178D27992A6E00C7716E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC9179127992A6E00C7716E /* MiheAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC9177C27992A6D00C7716E = {
+			isa = PBXGroup;
+			children = (
+				CDC9178827992A6D00C7716E /* MiheAuth */,
+				CDC9179427992A6E00C7716E /* MiheAuthTests */,
+				CDC9178727992A6D00C7716E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC9178727992A6D00C7716E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9178627992A6D00C7716E /* MiheAuth.framework */,
+				CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC9178827992A6D00C7716E /* MiheAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CDC917A227992A8A00C7716E /* AuthorizeManager.h */,
+				CDC917A127992A8A00C7716E /* AuthorizeManager.m */,
+				CDC917A027992A8900C7716E /* MiheUserModel.h */,
+				CDC917A427992A8A00C7716E /* MiheUserModel.m */,
+				CDC917A527992A8A00C7716E /* WebViewJavascriptBridge */,
+				CDC9178927992A6D00C7716E /* MiheAuth.h */,
+				CDC9178A27992A6D00C7716E /* MiheAuth.docc */,
+			);
+			path = MiheAuth;
+			sourceTree = "<group>";
+		};
+		CDC9179427992A6E00C7716E /* MiheAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9179527992A6E00C7716E /* MiheAuthTests.m */,
+			);
+			path = MiheAuthTests;
+			sourceTree = "<group>";
+		};
+		CDC917A527992A8A00C7716E /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CDC917A627992A8A00C7716E /* LICENSE */,
+				CDC917A727992A8A00C7716E /* WebViewJavascriptBridge */,
+				CDC917B027992A8A00C7716E /* README.md */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		CDC917A727992A8A00C7716E /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				CDC917A827992A8A00C7716E /* WebViewJavascriptBridgeBase.m */,
+				CDC917A927992A8A00C7716E /* WKWebViewJavascriptBridge.m */,
+				CDC917AA27992A8A00C7716E /* WebViewJavascriptBridge.m */,
+				CDC917AB27992A8A00C7716E /* WebViewJavascriptBridge_JS.h */,
+				CDC917AC27992A8A00C7716E /* WebViewJavascriptBridgeBase.h */,
+				CDC917AD27992A8A00C7716E /* WebViewJavascriptBridge_JS.m */,
+				CDC917AE27992A8A00C7716E /* WebViewJavascriptBridge.h */,
+				CDC917AF27992A8A00C7716E /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDC9178127992A6D00C7716E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC917B427992A8A00C7716E /* AuthorizeManager.h in Headers */,
+				CDC917B227992A8A00C7716E /* MiheUserModel.h in Headers */,
+				CDC9179727992A6E00C7716E /* MiheAuth.h in Headers */,
+				CDC917BF27992A8A00C7716E /* WKWebViewJavascriptBridge.h in Headers */,
+				CDC917BB27992A8A00C7716E /* WebViewJavascriptBridge_JS.h in Headers */,
+				CDC917BE27992A8A00C7716E /* WebViewJavascriptBridge.h in Headers */,
+				CDC917BC27992A8A00C7716E /* WebViewJavascriptBridgeBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CDC9178527992A6D00C7716E /* MiheAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC9179A27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuth" */;
+			buildPhases = (
+				CDC9178127992A6D00C7716E /* Headers */,
+				CDC9178227992A6D00C7716E /* Sources */,
+				CDC9178327992A6D00C7716E /* Frameworks */,
+				CDC9178427992A6D00C7716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiheAuth;
+			productName = MiheAuth;
+			productReference = CDC9178627992A6D00C7716E /* MiheAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDC9178F27992A6E00C7716E /* MiheAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC9179D27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuthTests" */;
+			buildPhases = (
+				CDC9178C27992A6E00C7716E /* Sources */,
+				CDC9178D27992A6E00C7716E /* Frameworks */,
+				CDC9178E27992A6E00C7716E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC9179327992A6E00C7716E /* PBXTargetDependency */,
+			);
+			name = MiheAuthTests;
+			productName = MiheAuthTests;
+			productReference = CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC9177D27992A6D00C7716E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CDC9178527992A6D00C7716E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CDC9178F27992A6E00C7716E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CDC917C227992B5A00C7716E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CDC9178027992A6D00C7716E /* Build configuration list for PBXProject "MiheAuth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC9177C27992A6D00C7716E;
+			productRefGroup = CDC9178727992A6D00C7716E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC9178527992A6D00C7716E /* MiheAuth */,
+				CDC9178F27992A6E00C7716E /* MiheAuthTests */,
+				CDC917C227992B5A00C7716E /* MIhe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC9178427992A6D00C7716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC917C027992A8A00C7716E /* README.md in Resources */,
+				CDC917B727992A8A00C7716E /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC9178E27992A6E00C7716E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDC917C627992B8B00C7716E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\nthen\n#要build的target名\ntarget_Name=${PROJECT_NAME}\n#build之后的文件夹路径\nbuild_DIR=${SRCROOT}/build\n#真机build生成的framework文件路径\nDEVICE_DIR_Framework=${build_DIR}/Release-iphoneos/${PROJECT_NAME}.framework\n#模拟器build生成的framework文件路径\nSIMULATOR_DIR_Framework=${build_DIR}/Release-iphonesimulator/${PROJECT_NAME}.framework\n#目标文件夹路径\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${build_DIR}\" ]\nthen\nrm -rf \"${build_DIR}\"\nfi\n#判断目标文件夹是否存在，存在则删除该文件夹\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n#创建目标文件夹\nmkdir -p \"${INSTALL_DIR}\"\n#build之前clean一下\nxcodebuild -target ${target_Name} clean\n#真机build\nxcodebuild -target ${target_Name} -configuration Release -sdk iphoneos\n#模拟器build\nxcodebuild -target ${target_Name} -configuration Release -sdk iphonesimulator\n#复制头文件到目标文件夹\ncp -R \"${DEVICE_DIR_Framework}\" \"${INSTALL_DIR}\"\n#合成模拟器和真机包\nlipo -create \"${DEVICE_DIR_Framework}/${PROJECT_NAME}\" \"${SIMULATOR_DIR_Framework}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n#打开目标文件夹\nopen \"${INSTALL_DIR}\"\n\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC9178227992A6D00C7716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC917BD27992A8A00C7716E /* WebViewJavascriptBridge_JS.m in Sources */,
+				CDC9178B27992A6D00C7716E /* MiheAuth.docc in Sources */,
+				CDC917B627992A8A00C7716E /* MiheUserModel.m in Sources */,
+				CDC917B327992A8A00C7716E /* AuthorizeManager.m in Sources */,
+				CDC917B827992A8A00C7716E /* WebViewJavascriptBridgeBase.m in Sources */,
+				CDC917BA27992A8A00C7716E /* WebViewJavascriptBridge.m in Sources */,
+				CDC917B927992A8A00C7716E /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC9178C27992A6E00C7716E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC9179627992A6E00C7716E /* MiheAuthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC9179327992A6E00C7716E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC9178527992A6D00C7716E /* MiheAuth */;
+			targetProxy = CDC9179227992A6E00C7716E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDC9179827992A6E00C7716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDC9179927992A6E00C7716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDC9179B27992A6E00C7716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuth;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC9179C27992A6E00C7716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuth;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDC9179E27992A6E00C7716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC9179F27992A6E00C7716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDC917C427992B5A00C7716E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC917C527992B5A00C7716E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U235XJ2SZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC9178027992A6D00C7716E /* Build configuration list for PBXProject "MiheAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9179827992A6E00C7716E /* Debug */,
+				CDC9179927992A6E00C7716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC9179A27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9179B27992A6E00C7716E /* Debug */,
+				CDC9179C27992A6E00C7716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC9179D27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9179E27992A6E00C7716E /* Debug */,
+				CDC9179F27992A6E00C7716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC917C327992B5A00C7716E /* Build configuration list for PBXAggregateTarget "MIhe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC917C427992B5A00C7716E /* Debug */,
+				CDC917C527992B5A00C7716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC9177D27992A6D00C7716E /* Project object */;
+}
