@@ -22,8 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		CDC9178B27992A6D00C7716E /* MiheAuth.docc in Sources */ = {isa = PBXBuildFile; fileRef = CDC9178A27992A6D00C7716E /* MiheAuth.docc */; };
-		CDC9179127992A6E00C7716E /* MiheAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC9178627992A6D00C7716E /* MiheAuth.framework */; };
-		CDC9179627992A6E00C7716E /* MiheAuthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9179527992A6E00C7716E /* MiheAuthTests.m */; };
 		CDC9179727992A6E00C7716E /* MiheAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC9178927992A6D00C7716E /* MiheAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC917B227992A8A00C7716E /* MiheUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC917A027992A8900C7716E /* MiheUserModel.h */; };
 		CDC917B327992A8A00C7716E /* AuthorizeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC917A127992A8A00C7716E /* AuthorizeManager.m */; };
@@ -41,22 +39,10 @@
 		CDC917C027992A8A00C7716E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDC917B027992A8A00C7716E /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CDC9179227992A6E00C7716E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CDC9177D27992A6D00C7716E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDC9178527992A6D00C7716E;
-			remoteInfo = MiheAuth;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		CDC9178627992A6D00C7716E /* MiheAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MiheAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC9178927992A6D00C7716E /* MiheAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiheAuth.h; sourceTree = "<group>"; };
 		CDC9178A27992A6D00C7716E /* MiheAuth.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MiheAuth.docc; sourceTree = "<group>"; };
-		CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiheAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDC9179527992A6E00C7716E /* MiheAuthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiheAuthTests.m; sourceTree = "<group>"; };
 		CDC917A027992A8900C7716E /* MiheUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiheUserModel.h; sourceTree = "<group>"; };
 		CDC917A127992A8A00C7716E /* AuthorizeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizeManager.m; sourceTree = "<group>"; };
 		CDC917A227992A8A00C7716E /* AuthorizeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizeManager.h; sourceTree = "<group>"; };
@@ -81,14 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDC9178D27992A6E00C7716E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDC9179127992A6E00C7716E /* MiheAuth.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CDC9178827992A6D00C7716E /* MiheAuth */,
-				CDC9179427992A6E00C7716E /* MiheAuthTests */,
 				CDC9178727992A6D00C7716E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				CDC9178627992A6D00C7716E /* MiheAuth.framework */,
-				CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,14 +98,6 @@
 				CDC9178A27992A6D00C7716E /* MiheAuth.docc */,
 			);
 			path = MiheAuth;
-			sourceTree = "<group>";
-		};
-		CDC9179427992A6E00C7716E /* MiheAuthTests */ = {
-			isa = PBXGroup;
-			children = (
-				CDC9179527992A6E00C7716E /* MiheAuthTests.m */,
-			);
-			path = MiheAuthTests;
 			sourceTree = "<group>";
 		};
 		CDC917A527992A8A00C7716E /* WebViewJavascriptBridge */ = {
@@ -195,24 +163,6 @@
 			productReference = CDC9178627992A6D00C7716E /* MiheAuth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CDC9178F27992A6E00C7716E /* MiheAuthTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CDC9179D27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuthTests" */;
-			buildPhases = (
-				CDC9178C27992A6E00C7716E /* Sources */,
-				CDC9178D27992A6E00C7716E /* Frameworks */,
-				CDC9178E27992A6E00C7716E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CDC9179327992A6E00C7716E /* PBXTargetDependency */,
-			);
-			name = MiheAuthTests;
-			productName = MiheAuthTests;
-			productReference = CDC9179027992A6E00C7716E /* MiheAuthTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,9 +173,6 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					CDC9178527992A6D00C7716E = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					CDC9178F27992A6E00C7716E = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					CDC917C227992B5A00C7716E = {
@@ -247,7 +194,6 @@
 			projectRoot = "";
 			targets = (
 				CDC9178527992A6D00C7716E /* MiheAuth */,
-				CDC9178F27992A6E00C7716E /* MiheAuthTests */,
 				CDC917C227992B5A00C7716E /* MIhe */,
 			);
 		};
@@ -260,13 +206,6 @@
 			files = (
 				CDC917C027992A8A00C7716E /* README.md in Resources */,
 				CDC917B727992A8A00C7716E /* LICENSE in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CDC9178E27992A6E00C7716E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,23 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDC9178C27992A6E00C7716E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDC9179627992A6E00C7716E /* MiheAuthTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CDC9179327992A6E00C7716E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CDC9178527992A6D00C7716E /* MiheAuth */;
-			targetProxy = CDC9179227992A6E00C7716E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CDC9179827992A6E00C7716E /* Debug */ = {
@@ -506,36 +429,6 @@
 			};
 			name = Release;
 		};
-		CDC9179E27992A6E00C7716E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4U235XJ2SZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CDC9179F27992A6E00C7716E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4U235XJ2SZ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mihe.MiheAuthTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		CDC917C427992B5A00C7716E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,15 +464,6 @@
 			buildConfigurations = (
 				CDC9179B27992A6E00C7716E /* Debug */,
 				CDC9179C27992A6E00C7716E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDC9179D27992A6E00C7716E /* Build configuration list for PBXNativeTarget "MiheAuthTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CDC9179E27992A6E00C7716E /* Debug */,
-				CDC9179F27992A6E00C7716E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
