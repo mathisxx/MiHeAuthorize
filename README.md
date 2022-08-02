@@ -58,11 +58,7 @@ Passed  User  Info  to html webpage  :
 
 ```
 
-or just :
 
-```objc
- //already has the user info
-MiheUserModel* user = [self getUser];
-[AuthorizeManger setUpBridge:user];
-```
+
+
 
